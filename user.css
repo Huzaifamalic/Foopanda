@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px color #f6f6f6;
+    box-shadow: 10px 10px 10px 10px #f6f6f6;
+}
+.icon{
+    color: #e91f75;
+}
+img{
+    width: 200px;
+}
+button{
+    border-radius: 5px;
+}
+.manue{
+    margin-top: 30px;
+}

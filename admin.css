@@ -1,0 +1,56 @@
+*{
+    
+    text-align: center;
+}
+body {
+    background-image: url('https://thumbs.dreamstime.com/b/todo-list-seamless-pattern-universal-background-66678083.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    font-family: Arial, sans-serif; /* Set a fallback font in case the preferred font is not available */
+}
+ul{
+    list-style: none;
+}
+input{
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.addbtn{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+border-radius: 25px;
+background-color: green;
+}
+.dltbtn{
+    width: 120px;
+    height: auto;
+    padding: 10px;
+border-radius: 25px;
+background-color: red;
+}
+@media only screen and (min-width: 768px) {
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    button {
+        margin-left: 5px;
+    }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    li {
+        flex-wrap: wrap;
+    }
+
+    button {
+        margin-top: 5px;
+        width: 48%;
+    }
+}
