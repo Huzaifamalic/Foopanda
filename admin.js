@@ -26,16 +26,13 @@ function addtodo() {
     editbtn.setAttribute('style', 'background-color: green; color: white; border-radius: 5px;');
     cerataeli.appendChild(editbtn);
 
-    // Add an image below the text
-    var img = document.createElement('img');
-    img.setAttribute('src', 'image-url.jpg'); // Replace 'image-url.jpg' with the URL of your image
-    img.setAttribute('style', 'width: 50px; height: 50px; margin-top: 10px;'); // Adjust width, height, and margin as needed
-    cerataeli.appendChild(img);
+   
 }
 
 // Responsive behavior
 function isMobile() {
-    return window.innerWidth < 768; // Adjust breakpoint as needed
+    return window.innerWidth < 768; 
+    
 }
 
 function addtodoResponsive() {

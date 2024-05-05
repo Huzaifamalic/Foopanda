@@ -4,10 +4,13 @@
     box-sizing: border-box;
 
 }
+h1{
+    color: white;
+}
 main{
     width: 100%;
     height: 100vh;
-    background-image: url('https://as1.ftcdn.net/v2/jpg/01/05/59/48/1000_F_105594803_ekPRfmQCqh5PBqYzceevGhRjpGc0Lhlq.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp4289147.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;

@@ -3,10 +3,10 @@
     text-align: center;
 }
 body {
-    background-image: url('https://thumbs.dreamstime.com/b/todo-list-seamless-pattern-universal-background-66678083.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
-    background-size: cover; /* Ensures the background image covers the entire screen */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    font-family: Arial, sans-serif; /* Set a fallback font in case the preferred font is not available */
+    white-space: auto;
+}
+h1{
+    color:skyblue;
 }
 ul{
     list-style: none;
