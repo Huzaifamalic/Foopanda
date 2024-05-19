@@ -1,4 +1,4 @@
-*{
+ *{
     
     text-align: center;
 }
@@ -31,26 +31,160 @@ background-color: green;
 border-radius: 25px;
 background-color: red;
 }
-@media only screen and (min-width: 768px) {
+
+    * {
+        text-align: center;
+        box-sizing: border-box;
+    }
+    body {
+        white-space: auto;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        color: skyblue;
+        margin-top: 20px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+    input {
+        width: 60%;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 25px;
+        padding: 0 15px;
+        margin: 10px 0;
+    }
+    .addbtn, .dltbtn {
+        width: 100px;
+        height: auto;
+        padding: 10px;
+        border-radius: 25px;
+        margin: 5px;
+        font-size: 16px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .addbtn {
+        background-color: green;
+    }
+    .dltbtn {
+        background-color: red;
+    }
     li {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
     }
-
     button {
-        margin-left: 5px;
+        margin-left: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        color: white;
+        border: none;
+        cursor: pointer;
     }
-}
-
-/* Mobile styles */
-@media only screen and (max-width: 767px) {
-    li {
-        flex-wrap: wrap;
+    .deltebtn {
+        background-color: red;
     }
-
-    button {
-        margin-top: 5px;
-        width: 48%;
+    .editbtn {
+        background-color: green;
     }
-}
+    
+    @media only screen and (max-width: 1200px) {
+        ul {
+            width: 90%;
+        }
+        input {
+            width: 70%;
+        }
+        .addbtn, .dltbtn {
+            width: 90px;
+            font-size: 14px;
+        }
+        li {
+            padding: 8px;
+        }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        ul {
+            width: 95%;
+        }
+        input {
+            width: 75%;
+        }
+        .addbtn, .dltbtn {
+            width: 80px;
+            font-size: 13px;
+        }
+        li {
+            padding: 8px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        ul {
+            width: 100%;
+        }
+        input {
+            width: 80%;
+            font-size: 16px;
+        }
+        .addbtn, .dltbtn {
+            width: 70px;
+            padding: 8px;
+            font-size: 12px;
+            border-radius: 15px;
+        }
+        li {
+            padding: 8px;
+            flex-wrap: wrap;
+            text-align: left;
+        }
+        button {
+            margin-top: 5px;
+            width: 48%;
+        }
+    }
+    
+    @media only screen and (max-width: 576px) {
+        input {
+            width: 85%;
+            font-size: 14px;
+        }
+        .addbtn, .dltbtn {
+            width: 60px;
+            padding: 6px;
+            font-size: 12px;
+        }
+        li {
+            padding: 5px;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        input {
+            width: 85%;
+            font-size: 14px;
+        }
+        .addbtn, .dltbtn {
+            width: 60px;
+            padding: 6px;
+            font-size: 12px;
+        }
+        li {
+            padding: 5px;
+        }
+    }
+    

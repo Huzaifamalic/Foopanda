@@ -1,0 +1,72 @@
+nav{
+    box-shadow: 8px 8px 8px 8px #ededed;
+    background-color: #ffffff;
+}
+
+
+.sp1{
+    color: #ff2b85;
+}
+
+.login{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #ffc4dd;
+    color: #ff2b85;
+}
+.signup{
+    border-radius: 5px;
+    background-color: #e21b70;
+    border: 1px solid #ff2b85;
+    color: white;
+}
+.section1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    flex-wrap: wrap;
+    
+
+}
+.heding{
+    font-size: 40px;
+    color: black;
+    margin-left: 40px;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}   
+.inp{
+    width: 675px;
+    height: 80px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    border: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+    
+}
+input{
+    width: 529px;
+    height: 48px;
+    padding: 12px 16px 12px 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.btn{
+    width: 95px;
+    height: 48px;
+    background-color: #e21b70;
+    color: #ffffff;
+}
+.img1{
+    width: 608px;
+    height: 540px;
+}

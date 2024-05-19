@@ -1,27 +1,16 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-.nav{
-    width: 100%;
-    height: auto;
+nav{
+    box-shadow: 8px 8px 8px 8px #ededed;
     background-color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 10px 10px 10px 10px color #f6f6f6;
-    box-shadow: 10px 10px 10px 10px #f6f6f6;
 }
-.icon{
-    color: #e91f75;
+
+
+.sp1{
+    color: #ff2b85;
 }
-img{
-    width: 200px;
-}
-button{
+
+.logout{
     border-radius: 5px;
-}
-.manue{
-    margin-top: 30px;
+    background-color: white;
+    border: 1px solid #ffc4dd;
+    color: #ff2b85;
 }

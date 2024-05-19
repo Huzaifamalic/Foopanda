@@ -104,3 +104,31 @@ if(ubtn){
 }
 // login user end
 
+
+
+let getbtns =document.querySelector('#btns')
+if(getbtns){
+  let signuppage =()=>{
+    window.location.href = "Signup.html"; 
+  
+  }
+  getbtns.addEventListener('click', signuppage)
+
+}
+
+
+
+  
+
+
+
+let getbtnl =document.querySelector('#btnl')
+if(getbtnl){
+  let loginpage =()=>{
+    window.location.href = "liginadmin.html"; 
+  
+  }
+  getbtnl.addEventListener('click', loginpage)
+
+}
+
