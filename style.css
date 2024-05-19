@@ -27,7 +27,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #f7f7f7;
-    flex-wrap: wrap;
+    display: flex;
+    
     
 
 }
